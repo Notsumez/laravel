@@ -24,7 +24,7 @@
         @if($nome == "Pedro")
             <p>O nome é pedro</p>
         @elseif($nome == "Andrey")
-            <p>O nome é {{ $nome }} e ele tem {{ $profissao }} anos</p>
+            <p>O nome é {{ $nome }} e ele tem {{ $idade }} anos</p>
         @else 
             <p>O nome não é Pedro</p>
         @endif

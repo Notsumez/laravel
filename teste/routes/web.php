@@ -22,5 +22,8 @@ Route::get('/', function () {
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+
+    $test = "Testando as Arrays";
+
+    return view('contact', ['test' => $test]);
 });
